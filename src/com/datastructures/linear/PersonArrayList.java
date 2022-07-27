@@ -6,6 +6,11 @@ import com.datastructures.repository.IPersonRepository;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Implements a static Object array Object[], so it has to create another one with a doubled capacity (size) when the number of elements
+ * reaches the 'load factor', which is 0.75 by default.
+ * It's index-based, and thus is efficient for searching a particular element, but not for insertion or deletion.
+ */
 public class PersonArrayList implements IPersonRepository {
     private final List<Person> arrayList;
 

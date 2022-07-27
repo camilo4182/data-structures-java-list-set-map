@@ -7,7 +7,12 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * Implements the Set interface. It doesn't allow duplicated elements and is not ordered (doesn't keep the insertion order)
+ * Stores uniquely the elements with the hashCode and permits null values.
+ */
 public class PersonHashSet implements IPersonRepository {
+
     private final HashSet<Person> hashSet;
 
     public PersonHashSet() {

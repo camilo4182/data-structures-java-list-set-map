@@ -1,6 +1,7 @@
 package com.datastructures.model;
 
 public class Person implements Comparable<Person> {
+
     private int id;
     private String first_name;
     private String last_name;

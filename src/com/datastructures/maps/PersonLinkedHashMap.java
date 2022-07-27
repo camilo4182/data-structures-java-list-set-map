@@ -1,12 +1,14 @@
 package com.datastructures.maps;
 
-import com.datastructures.linear.PersonLinkedList;
 import com.datastructures.model.Person;
 import com.datastructures.repository.IPersonRepository;
 
 import java.util.LinkedHashMap;
 import java.util.List;
 
+/**
+ * As in LinkedHashSet, this implementation of Map keeps the insertion order of the elements.
+ */
 public class PersonLinkedHashMap implements IPersonRepository {
     private final LinkedHashMap<Integer, Person> linkedHashMap;
 

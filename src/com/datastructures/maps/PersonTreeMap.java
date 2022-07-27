@@ -6,6 +6,10 @@ import com.datastructures.repository.IPersonRepository;
 import java.util.List;
 import java.util.TreeMap;
 
+/**
+ * As in TreeSet, this implementation of Map stores the elements in a sorted way, ascendant or descendant, by using the
+ * Comparable interface in the elements class.
+ */
 public class PersonTreeMap implements IPersonRepository {
     private final TreeMap<Integer, Person> treeMap;
 

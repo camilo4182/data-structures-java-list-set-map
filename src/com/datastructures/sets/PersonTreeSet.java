@@ -6,7 +6,12 @@ import com.datastructures.repository.IPersonRepository;
 import java.util.List;
 import java.util.TreeSet;
 
+/**
+ * Implementation of NavigableSet which extends SortedSet. This stores the elements in a sorted way, ascendant or descendant,
+ * by the Comparable interface implementation in the elements class.
+ */
 public class PersonTreeSet implements IPersonRepository {
+
     private final TreeSet<Person> treeSet;
 
     public PersonTreeSet() {

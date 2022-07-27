@@ -6,6 +6,10 @@ import com.datastructures.repository.IPersonRepository;
 import java.util.Hashtable;
 import java.util.List;
 
+/**
+ * Works almost the same way as HashMap, but this doesn't allow null values, neither null keys.
+ * It's a synchronized implementation.
+ */
 public class PersonHashTable implements IPersonRepository {
     private final Hashtable<Integer, Person> hashtable;
 

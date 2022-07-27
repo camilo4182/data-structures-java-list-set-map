@@ -6,6 +6,9 @@ import com.datastructures.repository.IPersonRepository;
 import java.util.LinkedHashSet;
 import java.util.List;
 
+/**
+ * Another implementation of Set interface. This does maintain the insertion order.
+ */
 public class PersonLinkedHashSet implements IPersonRepository {
     private final LinkedHashSet<Person> linkedHashSet;
 
